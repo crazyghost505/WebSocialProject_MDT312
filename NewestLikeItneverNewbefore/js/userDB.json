@@ -1,0 +1,25 @@
+{
+  "user1": {
+    "username": "NineMeow",
+    "password": "999",
+    "img": "avatar.png",
+    "banner": "banner1.jpg",
+    "tagline": "ผู้เล่นสาย Aggro เล่นมานานกว่า 25 ปี",
+    "tags": [
+      "Aggro",
+      "Premium"
+    ],
+    "decks": [
+      "deck1.jpg",
+      "deck2.jpg",
+      "deck3.jpg"
+    ],
+    "discord": "NineMeow#1234",
+    "email": "NineMeow@gmail.com"
+  },
+  "user2": {
+    "username": "nnn",
+    "password": "999",
+    "img": "avatar.png"
+  }
+}

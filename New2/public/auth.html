@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Login / Register</title>
+		<link type="text/css" rel="stylesheet" href="css/style.css">
+		<script type="text/javascript" src="js/login.js"></script> 
+	</head>
+	<body>
+		<div id="container">
+            
+            <form class="form" id="loginForm" action="/checkLogin" method="post" accept-charset="utf-8" style="display: block;">
+				<fieldset>
+					<legend> เข้าสู่ระบบ (Login) </legend>
+					Username:<input type="text" name="username" value="" placeholder="" required><br>
+					Password: <input type="password" name="password" value="" placeholder="" required><br>
+					<span id="errordisplay"></span><br>
+					<input type="submit" value="Login">
+                    <hr>
+                    <button type="button" id="switchRegisButton">
+                        ยังไม่มีบัญชี? ลงทะเบียนที่นี่
+                    </button>
+				</fieldset>
+			</form>
+            
+            <form class="form" id="registerForm" action="/regisDB" method="post" accept-charset="utf-8" style="display: none;">
+				<fieldset>
+					<legend> ลงทะเบียน (Register) </legend>
+					Username:<input type="text" name="username" value="" placeholder="" required><br>
+					Email:<input type="text" name="email" value="" placeholder="" required><br>
+					Password: <input type="password" name="password" value="" placeholder=""><br>
+					<span id="errordisplay"></span><br>
+					<input type="submit" name="submit" value="Register">
+                    <hr>
+                    <button type="button" id="switchLoginButton">
+                        มีบัญชีอยู่แล้ว? เข้าสู่ระบบ
+                    </button>
+				</fieldset>
+			</form>
+			
+		</div>
+	</body>
+</html>

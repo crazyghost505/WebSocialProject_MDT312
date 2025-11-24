@@ -1,0 +1,14 @@
+<h2>Dashboard</h2>
+<p id="welcome"></p>
+
+<button onclick="logout()" class="button">Logout</button>
+
+<script>
+document.getElementById("welcome").innerText =
+  "Welcome, " + localStorage.getItem("logged_in_user");
+
+function logout() {
+  localStorage.removeItem("logged_in_user");
+  window.location.href = "login.html";
+}
+</script>

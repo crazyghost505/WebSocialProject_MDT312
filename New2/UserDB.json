@@ -1,0 +1,21 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "reg_date": "2025-11-24 13:15:06",
+      "username": "ก",
+      "email": "ninemeow@gmail",
+      "password": "dd",
+      "img": "default.png"
+    },
+    {
+      "id": 2,
+      "reg_date": "2025-11-24 13:15:51",
+      "username": "NineMeow",
+      "email": "ninemeow@gmail",
+      "password": "999",
+      "img": "default.png"
+    }
+  ],
+  "posts": []
+}
